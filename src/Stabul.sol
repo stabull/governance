@@ -13,7 +13,7 @@ import {IERC165} from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 /**
- * @title STB
+ * @title STABUL
  *
  * This contract is taken from the official Chainlink CCIP cross-chain token template:
  * https://github.com/smartcontractkit/ccip/blob/onchain-release/v1.1.0/contracts/src/v0.8/shared/token/ERC677/BurnMintERC677.sol
@@ -22,15 +22,15 @@ import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
  * structure have been reworked. This was done to eliminate hundreds of unused files
  * and to import OpenZeppelin libraries directly from their NPM package.
  *
- * $STB token is non-upgradeable, non-pausable, and non-restrictable.
+ * $STABUL token is non-upgradeable, non-pausable, and non-restrictable.
  *
  * Specs:
- * - Name: Ledgity Token
- * - Symbol: STB
+ * - Name: Stabull Token
+ * - Symbol: STABUL
  * - Decimals: 18
- * - Total supply: 75,000,000
+ * - Total supply: 10,000,000
  *
- * @custom:security-contact security@ledgity.com
+ * @custom:security-contact security@stabull.finance
  */
 
 /// @notice A basic ERC677 compatible token contract with burn and minting roles.
